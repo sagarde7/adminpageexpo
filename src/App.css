@@ -1,0 +1,12 @@
+.body {
+    background: url('/imageback.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+.btn{
+  color: white;
+  background-color: rgb(13, 243, 13);
+  cursor:pointer;
+}
