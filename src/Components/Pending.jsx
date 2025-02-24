@@ -50,7 +50,10 @@ const Pending = () => {
 
           <div className="bg-green-600 rounded-lg p-6 shadow-lg">
             <h2 className="text-2xl font-bold mb-4">
-              Sector 44 Shahibaug, Chandigarh
+              Ellina Floors, Sector 116, Mohali
+            </h2>
+            <h2 className="text-2xl font-bold mb-4">
+              City Square, Sector 117, Chandigarh
             </h2>
             <div className="status bgp text-white px-3 py-1 rounded-lg">
               Pending

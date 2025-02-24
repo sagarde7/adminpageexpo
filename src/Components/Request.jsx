@@ -8,7 +8,7 @@ const Request = () => {
   return (
     <div className="body">
     <div className="text-white min-h-screen p-8">
-      <h1 className="text-4xl font-bold mb-6 text-center">Locations Status</h1>
+      <h1 className="text-white text-4xl font-bold mb-6 text-center">Locations Status</h1>
 
       {/* Navigation Buttons */}
       <div className="flex justify-center mb-6">
@@ -41,7 +41,7 @@ const Request = () => {
       {/* Location Status Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         <div className="bg-green-600 rounded-lg p-6 shadow-lg">
-          <h2 className="text-2xl font-bold mb-4">Jal Wayu Towers, Kharar, Punjab</h2>
+          <h2 className="text-2xl font-bold mb-4">Jal Wayu Towers, Kharar</h2>
           <div className="status bgp text-white px-3 py-1 rounded-lg">Pending</div>
         </div>
 

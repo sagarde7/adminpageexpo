@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import "../App.css"
 
 const completedLocations = [
-  { name: "Sector 1 Sukhna Lake, Chandigarh" },
+  { name: "JalVayu Towers, Kharar"},
+   { name:"Lifestyle Sky Homes, Mohali"
+   }
 ];
 
 const Completed = () => {
@@ -14,7 +16,7 @@ const Completed = () => {
 
       {/* Navigation Buttons */}
       <div className="flex justify-center mb-6">
-        <Link to="/home" className="btn hover:bg-orange-600 text-black font-bold py-2 px-4 rounded-lg mr-4">
+        <Link to="/" className="btn hover:bg-orange-600 text-black font-bold py-2 px-4 rounded-lg mr-4">
           <i className="fa fa-home"></i> Home
         </Link>
         <Link to="/pending" className="btn bgp hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg mr-4">

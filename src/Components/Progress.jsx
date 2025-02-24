@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "../App.css"
 
 const progressLocations = [
-  { name: "Sector 52 Nirmal Colony, Chandigarh" },
-  { name: "Sector 34 Terresa Enclave, Mohali" },
+  { name: "Co-Operative colony, Mohali" },
+  { name: "LifeStyle Residency, Mohali" },
 ];
 
 const Progress = () => {
